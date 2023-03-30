@@ -1,0 +1,9 @@
+@import '../scss/mixin';
+
+.App {
+  width: 1260px;
+  background-color: aliceblue;
+  min-height: 100vh;
+  border-radius: 15px;
+  transform: translateY(50px);
+}

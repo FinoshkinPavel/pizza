@@ -1,0 +1,16 @@
+@import "../../../scss/mixin";
+@import "../../../scss/var";
+
+.logoBlock {
+  border: $border;
+  @include flex(row, center, center);
+
+  .logoCont {
+  }
+
+  .title {
+  }
+
+  .text {
+  }
+}

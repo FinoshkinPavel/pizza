@@ -1,4 +1,8 @@
+@import './scss/mixin.scss';
+
 body {
+  @include flex(center, center, center);
+  background-color: burlywood;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
