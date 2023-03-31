@@ -1,0 +1,21 @@
+@import "../../../scss/mixin";
+@import "../../../scss/var";
+
+.shoppingCartBlock{
+  transform: translateX(-50px);
+  width: 150px;
+  height: 50px;
+  background-color: darkorange;
+  border-radius: 27px;
+  color: #fff;
+  @include flex(row, center, space-evenly);
+
+  .iconRuble{
+    @include text(lighten, 12px)
+  }
+
+  .stick{
+    transform: translateY(-3px);
+    font-weight: lighter;
+  }
+}

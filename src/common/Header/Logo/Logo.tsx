@@ -8,8 +8,8 @@ export const Logo = () => {
       <div className={s.logoCont}>
         <img src={logo} alt="logo" />
       </div>
-      <div>
-        <h4 className={s.title}>React Pizza</h4>
+      <div className={s.titleCont}>
+        <span className={s.title}>REACT PIZZA</span>
         <span className={s.text}>самая вкусная пицца во вселенной</span>
       </div>
     </div>
