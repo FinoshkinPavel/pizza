@@ -3,7 +3,6 @@
 
 .logoBlock {
   width: 26%;
-  transform: translateX(50px);
   @include flex(row, center, space-between);
 
   .logoCont {

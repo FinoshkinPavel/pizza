@@ -2,8 +2,15 @@
 
 .App {
   width: 1260px;
+  display: flex;
+  justify-content: center;
   background-color: aliceblue;
   min-height: 100vh;
   border-radius: 15px;
   transform: translateY(50px);
+
+  .innerWrapper{
+    transform: translateY(20px);
+   width: 1170px;
+  }
 }

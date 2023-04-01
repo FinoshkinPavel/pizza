@@ -1,0 +1,15 @@
+@import "../../../scss/mixin";
+@import "../../../scss/var";
+
+.menuSortBlock{
+  width: 22%;
+@include flex(row,center, space-around);
+  position: relative;
+
+  .selectedSorting{
+    color: darkorange;
+    border-bottom: 1px dashed darkorange;
+  }
+
+
+}

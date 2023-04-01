@@ -1,10 +1,13 @@
 import React from "react";
 import { MenuBar } from "./MenuBar/MenuBar";
+import { MenuSort } from "./MenuSort/MenuSort";
+import s from "./Menu.module.scss";
 
 export const Menu = () => {
   return (
-    <div>
+    <nav className={s.menuBlock}>
       <MenuBar />
-    </div>
+      <MenuSort />
+    </nav>
   );
 };

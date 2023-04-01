@@ -1,0 +1,15 @@
+@import "../../../scss/mixin";
+@import "../../../scss/var";
+
+.menuBarList{
+  width: 60%;
+  padding: 0;
+  list-style: none;
+  @include flex(row, center, space-between);
+
+  & li{
+    background-color:   #EDEDE8;
+    padding: 10px 16px;
+    border-radius: 20px;
+  }
+}

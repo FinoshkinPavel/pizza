@@ -6,8 +6,10 @@ import { Menu } from "../common/Menu/Menu";
 function App() {
   return (
     <div className={s.App}>
-      <Header />
-      <Menu />
+      <div className={s.innerWrapper}>
+        <Header />
+        <Menu />
+      </div>
     </div>
   );
 }
