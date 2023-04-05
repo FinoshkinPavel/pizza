@@ -8,8 +8,9 @@
   @include flex(row, center, space-between);
 
   & li{
-    background-color:   #EDEDE8;
+    background-color: $backActiveColor2;
     padding: 10px 16px;
     border-radius: 20px;
+    box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.1);
   }
 }

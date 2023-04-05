@@ -1,0 +1,12 @@
+@import "../../scss/mixin";
+
+.pizzaBlock {
+  margin:50px 0;
+  @include widthHeight(100%, 100%);
+
+  .pizzaCardCont {
+    @include widthHeight(100%, 100%);
+    @include flex(row, center, space-evenly);
+    flex-wrap: wrap;
+  }
+}

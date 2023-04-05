@@ -9,3 +9,8 @@
   font-weight: $fw;
   font-size: $fs;
 }
+
+@mixin widthHeight($w,$h){
+  width: $w;
+  height: $h;
+}

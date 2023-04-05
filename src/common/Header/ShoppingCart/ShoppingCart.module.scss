@@ -8,10 +8,7 @@
   border-radius: 27px;
   color: #fff;
   @include flex(row, center, space-evenly);
-
-  .iconRuble{
-    @include text(lighten, 12px)
-  }
+  box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.4);
 
   .stick{
     transform: translateY(-3px);

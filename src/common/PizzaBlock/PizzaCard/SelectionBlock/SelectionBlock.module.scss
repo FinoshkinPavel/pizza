@@ -1,0 +1,33 @@
+@import "../../../../scss/mixin";
+@import "../../../../scss/var";
+
+.selectionBlock{
+  width: 100%;
+  height: 25%;
+  background-color: $backActiveColor2;
+  @include flex(column, center, space-evenly);
+  border-radius: 5px;
+
+  .depthBlock{
+    width: 100%;
+    @include flex(row, center, space-evenly);
+
+    .depthBlockItem{
+      background-color: aliceblue;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.1);
+    }
+  }
+  .sizeBlock{
+    width: 100%;
+    @include flex(row, center, space-evenly);
+
+    .sizeBlockItem{
+      background-color: aliceblue;
+      padding: 0.5em 0.9em;
+      border-radius: 5px;
+      box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.1);
+    }
+  }
+}
