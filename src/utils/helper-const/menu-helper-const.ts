@@ -1,4 +1,12 @@
-export const menu = [
+export type CategoryType =
+  | "Все"
+  | "Мясные"
+  | "Вегетарианские"
+  | "Гриль"
+  | "Острые"
+  | "Закрытые";
+
+export const menu: Array<CategoryType> = [
   "Все",
   "Мясные",
   "Вегетарианские",

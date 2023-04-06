@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/9f32d6faf1354a35af835143ff52a68f_366x366.webp",
+    "title": "Сырная",
+    "types": [0,1],
+    "size": [25, 30, 40],
+    "coast": 2050,
+    "category": 0,
+    "rating": 0
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b9e9517672f94fd98640017e61d35205_366x366.webp",
+    "title": "Пепперони фреш",
+    "types": [1],
+    "size": [25, 30, 40],
+    "coast": 3000,
+    "category": 0,
+    "rating": 0
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ce0a4b898021421295c8f88c0cde7acd_366x366.webp",
+    "title": "Овощи и грибы",
+    "types": [0,1],
+    "size": [30, 40],
+    "coast": 2500,
+    "category": 0,
+    "rating": 0
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/6b7eb484d92b4bceb64b543012bcc1ef_366x366.webp",
+    "title": "Ветчина и сыр",
+    "types": [0],
+    "size": [25, 30, 40],
+    "coast": 132,
+    "category": 0,
+    "rating": 0
+  },{
+  "id": 5,
+  "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/51cbb001363c4740bda09200b14301a5_366x366.webp",
+  "title": "Двойной цыпленок",
+  "types": [0,1],
+  "size": [25],
+  "coast": 1000,
+  "category": 0,
+  "rating": 0
+},
+  {
+    "id": 6,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/d2c4e3df89ae4e42b08a41981de79171_366x366.webp",
+    "title": "Пепперони",
+    "types": [0,1],
+    "size": [25, 30, 40],
+    "coast": 600,
+    "category": 0,
+    "rating": 0
+  },{
+  "id": 7,
+  "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8ae844fcc604bae895d46b2cef9bf9e_366x366.webp",
+  "title": "Маргарита",
+  "types": [0,1],
+  "size": [25, 40],
+  "coast": 150,
+  "category": 0,
+  "rating": 0
+},{
+  "id": 8,
+  "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1c61dd003410437faff53fc741a20166_366x366.webp",
+  "title": "Ветчина и грибы",
+  "types": [1],
+  "size": [25, 30, 40],
+  "coast": 25,
+  "category": 0,
+  "rating": 0
+},{
+  "id": 9,
+  "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/cadff30e298d47989f76ab99cffa1d97_366x366.webp",
+  "title": "Гавайская",
+  "types": [0,1],
+  "size": [25, 30],
+  "coast": 100,
+  "category": 0,
+  "rating": 0
+},{
+  "id": 10,
+  "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
+  "title": "Сырный цыпленок",
+  "types": [0],
+  "size": [25, 30, 40],
+  "coast": 200,
+  "category": 0,
+  "rating": 0
+}
+]
