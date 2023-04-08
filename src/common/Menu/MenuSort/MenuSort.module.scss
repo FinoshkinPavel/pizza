@@ -5,6 +5,7 @@
   width: 22%;
 @include flex(row,center, space-around);
   position: relative;
+  cursor: pointer;
 
   .selectedSorting{
     color: darkorange;
