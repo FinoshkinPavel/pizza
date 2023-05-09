@@ -3,7 +3,7 @@
 
 .menuSortBlock{
   width: 22%;
-@include flex(row,center, space-around);
+@include flex(row,center, flex-start);
   position: relative;
   cursor: pointer;
 

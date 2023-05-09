@@ -14,9 +14,9 @@ export const MenuSort = () => {
   };
 
   return (
-    <div className={s.menuSortBlock}>
+    <div className={s.menuSortBlock} onClick={openCloseHAndler}>
       <AiFillCaretDown />
-      <span onClick={openCloseHAndler}>
+      <span>
         сортировка по:{" "}
         {<span className={s.selectedSorting}>{selectedSortName}</span>}
       </span>

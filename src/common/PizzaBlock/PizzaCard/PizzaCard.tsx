@@ -5,7 +5,7 @@ import pizzaImg from "../../../assets/img/pizza1.png";
 import { Button } from "./Button1/Button";
 import { RubleIcon } from "../../../utils/icon/RubleIcon";
 
-type PizzaCardPropsType = {
+export type PizzaCardPropsType = {
   id: number;
   imageUrl: string;
   title: string;
