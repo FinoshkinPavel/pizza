@@ -3,7 +3,7 @@
 .App {
   width: 1260px;
   height: 100%;
-  min-height: 100vh;
+ // min-height: 100vh;
   display: flex;
   justify-content: center;
   background-color: white;
@@ -12,10 +12,11 @@
 
   .innerWrapper {
     transform: translateY(20px);
-    width: 1170px;
+    //width: 1170px;
+    width: calc(100vw - 350px);
     height: 100%;
     box-sizing: border-box;
-    min-height: 100vh;
-    @include flex(column, flex-start, space-evenly)
+    //min-height: 100vh;
+    @include flex(column, flex-start, flex-start)
   }
 }

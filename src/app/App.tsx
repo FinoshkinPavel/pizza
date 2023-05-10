@@ -1,16 +1,19 @@
 import React from "react";
 import s from "./App.module.scss";
 import { Header } from "../common/Header/Header";
-import { Menu } from "../common/Menu/Menu";
-import { PizzaBlock } from "../common/PizzaBlock/PizzaBlock";
+import { PizzaPage } from "../pages/PizzaPage";
+import { Route, Routes } from "react-router-dom";
+import { NotFoundPage } from "../pages/NotFoundPage";
 
 function App() {
   return (
     <div className={s.App}>
       <div className={s.innerWrapper}>
         <Header />
-        <Menu />
-        <PizzaBlock />
+        <Routes>
+          <Route path={"/"} element={<PizzaPage />} />
+          <Route path={"*"} element={<NotFoundPage />} />
+        </Routes>
       </div>
     </div>
   );

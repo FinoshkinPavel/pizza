@@ -1,0 +1,9 @@
+@import "../../scss/mixin";
+
+.wrapNotFoundPage{
+  @include widthHeight(100%, 500px);
+  @include flex(column, center, center);
+  .smile{
+    font-size: 55px;
+  }
+}

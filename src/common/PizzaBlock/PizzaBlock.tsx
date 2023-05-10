@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { PizzaCard, PizzaCardPropsType } from "./PizzaCard/PizzaCard";
 import s from "./PizzaBlock.module.scss";
-import pizzas from "../../assets/json/pizzas.json";
+import { PizzaSceleton } from "./PizzaSceleton";
 
 export const PizzaBlock = () => {
   let [arrPizzas, setArrPizzas] = useState<Array<PizzaCardPropsType>>([]);
+  let [isLoading, setIsLoading] = useState(true);
 
   //https://6459daf665bd868e930a12fe.mockapi.io/items
 
@@ -14,6 +15,7 @@ export const PizzaBlock = () => {
       .then((arrPizza) => {
         console.log(arrPizza);
         setArrPizzas(arrPizza);
+        setIsLoading(false);
       });
   }, []);
 
@@ -21,9 +23,9 @@ export const PizzaBlock = () => {
     <div className={s.pizzaBlock}>
       <h1>Все пицы</h1>
       <div className={s.pizzaCardCont}>
-        {arrPizzas.map((el) => {
-          return <PizzaCard key={el.id} {...el} />;
-        })}
+        {isLoading
+          ? [...new Array(12)].map((_, i) => <PizzaSceleton key={i} />)
+          : arrPizzas.map((el) => <PizzaCard key={el.id} {...el} />)}
       </div>
     </div>
   );
