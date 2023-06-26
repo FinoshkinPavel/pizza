@@ -10,8 +10,21 @@
   @include flex(row, center, space-evenly);
   box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.4);
 
+  @media (max-width: 693px) {
+    width: 57px;
+  }
+
+  .numMoney{
+    @media (max-width: 693px) {
+      display: none;
+    }
+  }
   .stick{
     transform: translateY(-3px);
     font-weight: lighter;
+
+    @media (max-width: 693px) {
+      display: none;
+    }
   }
 }

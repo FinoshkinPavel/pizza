@@ -5,13 +5,21 @@ import { depthPizza } from "../../../../utils/helper-const/selection-block-helpe
 type SelectionBlockPropsType = {
   size: Array<number>;
   types: Array<number>;
+  activeSizePizza: number | null;
+  activePizzaType: number | null;
+  setActiveSizePizza: (value: number) => void;
+  setActivePizzaType: (value: number) => void;
 };
 
 export const SelectionBlock: React.FC<SelectionBlockPropsType> = memo(
-  ({ types, size }) => {
-    const [activePizzaType, setActivePizzaType] = useState<number | null>(null);
-    const [activeSizePizza, setActiveSizePizza] = useState<number | null>(null);
-
+  ({
+    types,
+    size,
+    setActiveSizePizza,
+    setActivePizzaType,
+    activeSizePizza,
+    activePizzaType,
+  }) => {
     return (
       <div className={s.selectionBlock}>
         <div className={s.depthBlock}>
@@ -31,9 +39,9 @@ export const SelectionBlock: React.FC<SelectionBlockPropsType> = memo(
           {size.map((el, i) => (
             <span
               key={i}
-              onClick={() => setActiveSizePizza(i)}
+              onClick={() => setActiveSizePizza(el)}
               className={`${s.sizeBlockItem} ${
-                i === activeSizePizza ? s.activeSizeBlockItem : null
+                el === activeSizePizza ? s.activeSizeBlockItem : null
               }`}
             >
               {el} cm

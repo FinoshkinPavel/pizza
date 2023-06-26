@@ -1,9 +1,6 @@
 import React from "react";
+import { CartBlock } from "../../common/CartBlock";
 
 export const CartPage = () => {
-  return (
-    <div>
-      <h1>Cart Page</h1>
-    </div>
-  );
+  return <CartBlock />;
 };

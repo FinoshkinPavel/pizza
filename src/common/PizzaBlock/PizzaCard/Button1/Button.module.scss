@@ -8,6 +8,7 @@
   border-radius: 20px;
   background-color: white;
   color: darkorange;
+  cursor: pointer;
 
   .numButton{
     width: 20px;
@@ -16,5 +17,17 @@
     line-height: 20px;
     color: white;
     background-color: darkorange;
+
+
+  }
+
+   &:hover{
+    background-color: darkorange;
+    color: white;
+
+     .numButton{
+       color: darkorange;
+       background-color: white;
+     }
   }
 }

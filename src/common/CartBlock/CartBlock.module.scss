@@ -1,0 +1,77 @@
+@import "../../scss/var";
+@import "../../scss/mixin";
+
+.cartBlock {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  @include widthHeight(100%, 100%);
+  @include flex(column, center, center);
+
+  .cartBlockWrap {
+    @include widthHeight(70%, 100%);
+
+    .titleAndBtnWrap {
+      @include widthHeight(100%, 50px);
+      @include flex(row, center, space-between);
+
+      .title {
+        width: 120px;
+        font-size: 22px;
+        @include flex(row, center, space-evenly);
+      }
+
+      .cleanCartBtn {
+        width: 170px;
+        @include flex(row, center, space-evenly);
+        font-size: 14px;
+        letter-spacing: 1px;
+        border: none;
+        color: gray;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+      }
+    }
+
+    .purchasesWrap {
+    }
+
+    .sumItemsAndMoneyWrap {
+      @include widthHeight(100%, 50px);
+      @include flex(row, center, space-between);
+
+      .sumItems {
+      }
+
+      .sumMoney {
+      }
+    }
+
+    .btnWrap {
+      @include widthHeight(100%, 50px);
+      @include flex(row, center, space-between);
+
+      .backBtn {
+        @include widthHeight(170px, 40px);
+        border-radius: 27px;
+        border: 1px solid gray;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+
+        & a {
+          @include flex(row, center, space-evenly);
+          color: gray;
+          text-decoration: none;
+        }
+      }
+
+      .buyBtn {
+        @include widthHeight(170px, 40px);
+        background-color: darkorange;
+        color: white;
+        border: none;
+        border-radius: 27px;
+        cursor: pointer;
+      }
+    }
+  }
+}

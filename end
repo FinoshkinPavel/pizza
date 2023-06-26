@@ -1,0 +1,59 @@
+[33mcommit 40622987d5e08a0f1d687dab9d21beb653c18316[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Mon Jun 26 13:41:58 2023 +0600
+
+    fixed adaptiv
+
+[33mcommit debb81c9ee23e5dafe80ebb625ece8540f3ad64e[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Wed May 10 18:36:25 2023 +0600
+
+    add preloader pizzaSceleton, created routing
+
+[33mcommit e0374fe7e2fee52377264ceb99b712147599afb4[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Tue May 9 15:24:19 2023 +0600
+
+    create api on mockIPI, using useEffect for fetch data
+
+[33mcommit 8cfc21a8e6b3b8051ebe5b5fe80f462b2ce8100f[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Sat Apr 8 14:54:18 2023 +0600
+
+    add popup sort menu
+
+[33mcommit ca72a51530cfdcca295d7e521a3a1675f28b5bde[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Thu Apr 6 18:04:23 2023 +0600
+
+    buttons do  work and active style
+
+[33mcommit c90e8d48eb4ade7c9b9472bbb21842a0a4cc1e65[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Wed Apr 5 16:23:19 2023 +0600
+
+    add pizzaCard and add some adaptiv
+
+[33mcommit d255ac487588fd8aa0315e4d0fe68a2b924c2ccc[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Sat Apr 1 15:25:21 2023 +0600
+
+    add menu and sort menu
+
+[33mcommit 258cc50d67021686b21b4cfe25156ab697860a21[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Fri Mar 31 18:23:03 2023 +0600
+
+    add cart and logo design
+
+[33mcommit c0bebefa86850bd2a310c5032365eb3f8ab194a8[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Thu Mar 30 15:49:28 2023 +0600
+
+    fc1
+
+[33mcommit 2e94784e95cda2eb61f7bdf1b850a6e23ba889ad[m
+Author: FinoshkinPavel <turbososki@gmail.com>
+Date:   Wed Mar 29 13:43:10 2023 +0600
+
+    Initialize project using Create React App

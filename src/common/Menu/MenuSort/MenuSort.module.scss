@@ -2,10 +2,11 @@
 @import "../../../scss/var";
 
 .menuSortBlock{
-  width: 22%;
+  width: 290px;
 @include flex(row,center, flex-start);
   position: relative;
   cursor: pointer;
+
 
   .selectedSorting{
     color: darkorange;

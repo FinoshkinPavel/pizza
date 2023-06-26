@@ -2,8 +2,7 @@
 @import "../../../../scss/var";
 
 .accordionBlock{
-  width: 140px;
-  height: 110px;
+  @include widthHeight(186px, 228px);
   box-sizing: border-box;
   @include flex(column, flex-start, space-evenly);
   border-radius: 5px;
@@ -11,6 +10,7 @@
   top: 30px;
   right: 0;
   box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.1);
+  background-color: white;
 
   .menuItem{
     width: 100%;

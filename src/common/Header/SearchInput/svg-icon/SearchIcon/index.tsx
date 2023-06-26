@@ -1,7 +1,7 @@
 import React from "react";
 import s from "../../SearchInput.module.scss";
 
-export const SearcIcon = () => {
+export const SearchIcon = () => {
   return (
     <svg
       viewBox="0 0 32 32"

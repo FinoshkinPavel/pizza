@@ -1,22 +1,23 @@
-@import '../scss/mixin';
+@import "../scss/mixin";
 
 .App {
-  width: 1260px;
-  height: 100%;
- // min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  border-radius: 15px;
-  transform: translateY(50px);
+	width: calc(100vw - 100px);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-radius: 15px;
+	transform: translateY(50px);
 
-  .innerWrapper {
-    transform: translateY(20px);
-    //width: 1170px;
-    width: calc(100vw - 350px);
-    height: 100%;
-    box-sizing: border-box;
-    //min-height: 100vh;
-    @include flex(column, flex-start, flex-start)
-  }
+	.innerWrapper {
+		transform: translateY(20px);
+		width: calc(100vw - 150px);
+		height: 100%;
+		box-sizing: border-box;
+		@include flex(column, flex-start, flex-start);
+
+		@media (min-width: 768px) {
+			width: calc(100vw - 168px); //220px
+		}
+	}
 }

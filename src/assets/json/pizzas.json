@@ -6,8 +6,8 @@
     "types": [0,1],
     "size": [25, 30, 40],
     "coast": 2050,
-    "category": 0,
-    "rating": 0
+    "category": 1,
+    "rating": 2
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "types": [1],
     "size": [25, 30, 40],
     "coast": 3000,
-    "category": 0,
-    "rating": 0
+    "category": 1,
+    "rating": 3
   },
   {
     "id": 3,
@@ -26,8 +26,8 @@
     "types": [0,1],
     "size": [30, 40],
     "coast": 2500,
-    "category": 0,
-    "rating": 0
+    "category": 2,
+    "rating": 4
   },
   {
     "id": 4,
@@ -36,8 +36,8 @@
     "types": [0],
     "size": [25, 30, 40],
     "coast": 132,
-    "category": 0,
-    "rating": 0
+    "category": 2,
+    "rating": 4
   },{
   "id": 5,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/51cbb001363c4740bda09200b14301a5_366x366.webp",
@@ -45,8 +45,8 @@
   "types": [0,1],
   "size": [25],
   "coast": 1000,
-  "category": 0,
-  "rating": 0
+  "category": 3,
+  "rating": 1
 },
   {
     "id": 6,
@@ -55,8 +55,8 @@
     "types": [0,1],
     "size": [25, 30, 40],
     "coast": 600,
-    "category": 0,
-    "rating": 0
+    "category": 3,
+    "rating": 3
   },{
   "id": 7,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8ae844fcc604bae895d46b2cef9bf9e_366x366.webp",
@@ -64,8 +64,8 @@
   "types": [0,1],
   "size": [25, 40],
   "coast": 150,
-  "category": 0,
-  "rating": 0
+  "category": 4,
+  "rating": 2
 },{
   "id": 8,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1c61dd003410437faff53fc741a20166_366x366.webp",
@@ -73,8 +73,8 @@
   "types": [1],
   "size": [25, 30, 40],
   "coast": 25,
-  "category": 0,
-  "rating": 0
+  "category": 4,
+  "rating": 3
 },{
   "id": 9,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/cadff30e298d47989f76ab99cffa1d97_366x366.webp",
@@ -82,8 +82,8 @@
   "types": [0,1],
   "size": [25, 30],
   "coast": 100,
-  "category": 0,
-  "rating": 0
+  "category": 4,
+  "rating": 5
 },{
   "id": 10,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -91,8 +91,8 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 5
 },{
   "id": 11,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -100,8 +100,8 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 1
 },{
   "id": 12,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -109,8 +109,8 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 1
 },{
   "id": 13,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -118,8 +118,8 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 1
 },{
   "id": 14,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -127,8 +127,8 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 1
 },{
   "id": 15,
   "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fe3272966f3842daaa8fff44a1939cf5_366x366.webp",
@@ -136,7 +136,7 @@
   "types": [0],
   "size": [25, 30, 40],
   "coast": 200,
-  "category": 0,
-  "rating": 0
+  "category": 5,
+  "rating": 1
 }
 ]

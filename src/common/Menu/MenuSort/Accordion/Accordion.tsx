@@ -4,31 +4,31 @@ import {
   menuSortAccordion,
   MenuSortAccordionType,
 } from "../../../../utils/helper-const/menu-sort-accordion-helper-const";
+import { useAppDispatch } from "../../../../hooks/useAppDispatch";
+import { setSortAC } from "../../../../store/reducer/sort-and-fIlter-reducer";
 
 type AccordionPropsType = {
-  setSelected: (value: MenuSortAccordionType) => void;
   setOpen: (value: boolean) => void;
 };
 
-export const Accordion: React.FC<AccordionPropsType> = ({
-  setSelected,
-  setOpen,
-}) => {
+export const Accordion: React.FC<AccordionPropsType> = ({ setOpen }) => {
+  const dispatch = useAppDispatch();
+  console.log("accordion render");
   const selectNameSortHandler = (value: MenuSortAccordionType) => {
-    setSelected(value);
+    dispatch(setSortAC(value));
     setOpen(false);
   };
 
   return (
     <div className={s.accordionBlock}>
-      {menuSortAccordion.map((el) => {
+      {menuSortAccordion.map((el, i) => {
         return (
           <span
-            key={el}
+            key={i}
             className={s.menuItem}
             onClick={() => selectNameSortHandler(el)}
           >
-            {el}
+            {el.title}
           </span>
         );
       })}

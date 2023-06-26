@@ -3,13 +3,30 @@
 .pizzaBlock {
   margin:50px 0;
   @include widthHeight(100%, 100%);
+  
+  @media (max-width: 686px) {
+    @include flex(column, center, space-around)
+  }
 
   .pizzaCardCont {
     @include widthHeight(100%, 100%);
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    
+    @media (max-width: 1321px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 1064px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 780px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }

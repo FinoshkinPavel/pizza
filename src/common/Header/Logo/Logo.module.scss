@@ -2,30 +2,50 @@
 @import "../../../scss/var";
 
 .logoBlock {
-  width: 26%;
-  @include flex(row, center, space-between);
+	width: 35%;
+	@include flex(row, center, flex-start);
 
-  .logoCont {
-    width: 50px;
-    height: 50px;
+	.logoCont {
+		width: 50px;
+		height: 50px;
 
-    & img {
-      width: 100%;
-      height: 100%;
-    }
-  }
+		& img {
+			width: 100%;
+			height: 100%;
+		}
+	}
 
-  .titleCont{
-    width: 81%;
-    @include flex(column, flex-start, flex-start);
-    .title {
-      @include text(bold, 22px)
-    }
+	.titleCont {
+		margin-left: 15px;
+		@include flex(column, flex-start, flex-start);
+		.title {
+			@include text(bold, 22px);
 
-    .text {
-      color: gray;
-      @include text(normal, 13px)
-    }
-  }
+			@media (max-width: 911px) {
+				font-size: 18px;
+				@include flex(column, flex-start, flex-start);
+			}
+		}
 
+		.text {
+			color: gray;
+			@include text(normal, 13px);
+
+			@media (max-width: 911px) {
+				display: none;
+			}
+		}
+
+		@media (max-width: 693px) {
+			display: none;
+		}
+	}
+
+	@media (max-width: 911px) {
+		width: 20%;
+	}
+
+	@media (max-width: 693px) {
+		width: 13%;
+	}
 }

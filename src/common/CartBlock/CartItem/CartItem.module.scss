@@ -1,0 +1,62 @@
+@import "../../../scss/mixin";
+@import "../../../scss/var";
+
+.cartItemWrap {
+  @include widthHeight(100%, 100px);
+  @include flex(row, center, space-around);
+
+  .descriptionAndImgWrap {
+    width: 250px;
+    @include flex(row, center, space-evenly);
+
+    .imgWrap {
+      @include widthHeight(80px, 80px);
+
+      & img {
+        @include widthHeight(100%, 100%);
+      }
+    }
+
+    .descriptionWrap {
+      @include flex(column, flex-start, flex-start);
+
+      .title {
+        font-weight: bold;
+      }
+
+      .description {
+        font-size: 14px;
+        color: gray;
+      }
+    }
+  }
+
+  .incAndDecBtnWrap {
+    width: 120px;
+    @include flex(row, stretch, space-evenly);
+
+    .incDecBtn {
+      background-color: rgba(0,0,0,0);
+      border: none;
+      color: darkorange;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .num {
+      font-weight: bold;
+    }
+  }
+
+  .sumMoney {
+    font-weight: bold;
+  }
+
+  .deleteItemBtn {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: gray;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}

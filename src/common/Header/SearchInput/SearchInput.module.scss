@@ -1,0 +1,35 @@
+@import "../../../scss/mixin";
+
+.searchInputWrap {
+	position: relative;
+
+	.searchIcon {
+		@include widthHeight(22px, 22px);
+		position: absolute;
+		left: 11px;
+		top: 11px;
+		opacity: 0.5;
+	}
+
+	.searchInput {
+		width: 300px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		font-size: 16px;
+		padding: 12px 20px 12px 40px;
+		outline: none;
+
+		@media (max-width: 1024px) {
+			width: 180px;
+		}
+	}
+
+	.clearingIcon {
+		@include widthHeight(22px, 22px);
+		position: absolute;
+		right: 11px;
+		top: 11px;
+		opacity: 0.5;
+		cursor: pointer;
+	}
+}
