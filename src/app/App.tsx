@@ -7,21 +7,18 @@ import { NotFoundPage } from "../pages/NotFoundPage";
 import { CartPage } from "../pages/CartPage";
 
 function App() {
-
-  
-
-  return (
-    <div className={s.App}>
-      <div className={s.innerWrapper}>
-        <Header />
-        <Routes>
-          <Route path={"/"} element={<PizzaPage />} />
-          <Route path={"cart-page"} element={<CartPage />} />
-          <Route path={"*"} element={<NotFoundPage />} />
-        </Routes>
-      </div>
-    </div>
-  );
+	return (
+		<div className={s.App}>
+			<div className={s.innerWrapper}>
+				<Header />
+				<Routes>
+					<Route path={"/"} element={<PizzaPage />} />
+					<Route path={"cart-page"} element={<CartPage />} />
+					<Route path={"*"} element={<NotFoundPage />} />
+				</Routes>
+			</div>
+		</div>
+	);
 }
 
 export default App;

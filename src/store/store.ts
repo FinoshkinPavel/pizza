@@ -3,18 +3,15 @@ import { filterSortByReducer } from "./reducer/sort-and-fIlter-reducer";
 import { shoppingCartReducer } from "./reducer/cart-reducer";
 import { appReducer } from "./reducer/app-reducer";
 import { pizzasReducer } from "./reducer/pizzas-reducer";
-import thunkMiddleware from "redux-thunk";
 const rootReducer = combineReducers({
-  filterSortBy: filterSortByReducer,
-  shoppingCart: shoppingCartReducer,
-  app: appReducer,
-  Pizzas: pizzasReducer,
+	filterSortBy: filterSortByReducer,
+	shoppingCart: shoppingCartReducer,
+	app: appReducer,
+	Pizzas: pizzasReducer,
 });
 
 export const store = configureStore({
-  reducer: rootReducer,
-  // middleware: (getDefaultMiddleware) =>
-  //   getDefaultMiddleware().prepend(thunkMiddleware),
+	reducer: rootReducer,
 });
 
 export type AppRootStateType = ReturnType<typeof rootReducer>;

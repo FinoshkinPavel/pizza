@@ -1,13 +1,22 @@
 @import "../scss/mixin";
 
 .App {
-	width: calc(100vw - 100px);
+	width: calc(100vw - 80px);
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	background-color: white;
 	border-radius: 15px;
 	transform: translateY(50px);
+
+	@media (min-width: 320px) {
+		width: calc(100vw - 20px);
+		transform: translateY(18px);
+	}
+
+	@media (min-width: 425px) {
+		width: calc(100vw - 25px);
+	}
 
 	.innerWrapper {
 		transform: translateY(20px);
@@ -17,7 +26,12 @@
 		@include flex(column, flex-start, flex-start);
 
 		@media (min-width: 768px) {
-			width: calc(100vw - 168px); //220px
+			width: calc(100vw - 168px);
+		}
+
+		@media (min-width: 320px) {
+			width: calc(100vw - 50px);
+			transform: translateY(0px);
 		}
 	}
 }

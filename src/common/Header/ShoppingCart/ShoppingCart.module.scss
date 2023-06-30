@@ -1,30 +1,32 @@
 @import "../../../scss/mixin";
 @import "../../../scss/var";
 
-.shoppingCartBlock{
-  width: 150px;
-  height: 50px;
-  background-color: darkorange;
-  border-radius: 27px;
-  color: #fff;
-  @include flex(row, center, space-evenly);
-  box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.4);
+.shoppingCartBlock {
+	@include widthHeight(150px, 50px);
+	background-color: darkorange;
+	border-radius: 27px;
+	color: #fff;
+	@include flex(row, center, space-evenly);
+	box-shadow: 0 0 4px 0.5px rgba(34, 60, 80, 0.4);
 
-  @media (max-width: 693px) {
-    width: 57px;
-  }
+	@media (max-width: 693px) {
+		@include widthHeight(50px, 50px);
+	}
+	@media (max-width: 376px) {
+		@include widthHeight(40px, 40px);
+	}
 
-  .numMoney{
-    @media (max-width: 693px) {
-      display: none;
-    }
-  }
-  .stick{
-    transform: translateY(-3px);
-    font-weight: lighter;
+	.numMoney {
+		@media (max-width: 693px) {
+			display: none;
+		}
+	}
+	.stick {
+		transform: translateY(-3px);
+		font-weight: lighter;
 
-    @media (max-width: 693px) {
-      display: none;
-    }
-  }
+		@media (max-width: 693px) {
+			display: none;
+		}
+	}
 }
